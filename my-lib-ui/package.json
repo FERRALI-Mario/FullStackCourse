@@ -75,6 +75,6 @@
     "dist"
   ],
   "dependencies": {
-    "sass": "^1.54.9"
+    "sass": "^1.56.1"
   }
 }
