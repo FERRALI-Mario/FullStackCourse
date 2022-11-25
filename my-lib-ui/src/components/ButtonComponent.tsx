@@ -1,7 +1,10 @@
 import React from "react";
 
-const ButtonComponent: React.FC = () => {
-  return <button></button>;
+type Props = { label: string };
+
+const ButtonComponent: React.FC<Props> = (props) => {
+  const { label } = props;
+  return (<button>{label}</button>);
 };
 
 export default ButtonComponent;
