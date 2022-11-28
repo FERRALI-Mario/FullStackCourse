@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import FooterComponent from "../components/FooterComponent";
 import HeadComponent from "../components/HeadComponent";
 import { InputTextComponent, ButtonComponent } from "my-lib-ui";
+import HeaderComponent from "../components/HeaderComponent";
 
 
 const Login: NextPage = () => {

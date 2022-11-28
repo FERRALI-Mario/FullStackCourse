@@ -1,4 +1,4 @@
-import { InputTextComponent } from "my-lib-ui";
+import { RadioComponent, SelectComponent, ButtonComponent, InputTextComponent, CheckboxComponent } from "my-lib-ui";
 import type { NextPage } from "next";
 
 import FooterComponent from "../components/FooterComponent";
@@ -8,8 +8,9 @@ const Home: NextPage = () => {
   return (
     <div>
       <HeadComponent />
-      <InputTextComponent label="Email" placeholder="Votre email" />
-      <main></main>
+      <main>
+        <CheckboxComponent label="j'atteste que je possède" type="checkbox" name="test"/>
+      </main>
       <FooterComponent />
     </div>
   );
