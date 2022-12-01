@@ -168,4 +168,34 @@ footer p {
     margin-left: 22%;
     margin-right: 22%;
   }
+
+  .grid-form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .form-select {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .bloc-inscription > .my-lib-ui-button {
+    width: 50%;
+    margin-left: 50%;
+  }
+
+  .my-lib-ui-form-field {
+    margin: 1em;
+  }
+
+  .login-page > main {
+    margin: 25%;
+  }
+
+  header .my-lib-ui-button{
+    width: 20%;
+  }
+
 }
+
+
