@@ -3,13 +3,18 @@ import type { NextPage } from "next";
 
 import FooterComponent from "../components/FooterComponent";
 import HeadComponent from "../components/HeadComponent";
+import HeaderComponent from "../components/HeaderComponent";
+import HeroComponent from "../components/HeroComponent";
+import InscriptionComponent from "../components/InscriptionComponent";
 
 const Home: NextPage = () => {
   return (
     <div>
       <HeadComponent />
+      <HeaderComponent />
       <main>
-        <CheckboxComponent label="j'atteste que je possède" type="checkbox" name="test"/>
+        <HeroComponent />
+        <InscriptionComponent />
       </main>
       <FooterComponent />
     </div>

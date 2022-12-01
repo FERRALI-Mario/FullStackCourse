@@ -1,8 +1,13 @@
-import { InputTextComponent } from "my-lib-ui";
+import { InputTextComponent, ButtonComponent } from "my-lib-ui";
+
+
 
 const HeaderComponent: React.FC = () => {
   return (
-    <p>Salut</p>
+    <header>
+      <img src="/logo.svg" alt="" />
+      <ButtonComponent label="Connexion admin" />
+    </header>
   );
 };
 
