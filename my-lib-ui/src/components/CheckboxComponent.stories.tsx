@@ -14,3 +14,8 @@ export default {
 export const CheckboxComponentView: ComponentStory<typeof CheckboxComponent> = (
   args
 ) => <CheckboxComponent {...args} />;
+
+CheckboxComponentView.args = {
+  type: "checkbox",
+  label: "J'accepte les conditions générales",
+}

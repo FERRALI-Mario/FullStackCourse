@@ -20,3 +20,8 @@ export const RadioButtonComponentView: ComponentStory<
     <option>Option 3</option>
   </SelectComponent>
 );
+
+
+RadioButtonComponentView.args = {
+  label: "Nationalité",
+}

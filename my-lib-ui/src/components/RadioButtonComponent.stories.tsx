@@ -14,3 +14,8 @@ export default {
 export const RadioButtonComponentView: ComponentStory<
   typeof RadioButtonComponent
 > = (args) => <RadioButtonComponent {...args} />;
+
+RadioButtonComponentView.args = {
+  type: "radio",
+  label: "Je suis un Homme",
+}

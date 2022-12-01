@@ -14,3 +14,7 @@ export default {
 export const CheckboxComponentView: ComponentStory<typeof ButtonComponent> = (
   args
 ) => <ButtonComponent {...args}>Button</ButtonComponent>;
+
+CheckboxComponentView.args = {
+  label: "Connexion",
+}
